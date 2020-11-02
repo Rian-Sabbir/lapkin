@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="xyz">
+<head>
+    <!-- Required Meta Tag -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An awesome personal portfolio template.">
+    <!-- Title -->
+    <title>Paul Lapkin</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="resources/img/favicon.png" type="image/x-icon">
+    <!-- CSS Files -->
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css" />
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="resources/css/responsive.css">
+</head>
+<body>
+    
+
+    <!--====== Start Hero Section  ======-->
+    <header id="hero">
+        <nav class="main-nav" data-uk-sticky="top: 100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+            <div class="row">
+                <div class="nav-content">
+                    <div class="logo">
+                        <a href="#hero"><span>R<span class="clr-cng">!</span>AN</span></a>
+                    </div> <!--/.logo-->
+                    <div class="menu-and-menu-logo">
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#hero">home</a></li>
+                                <li><a href="#about-section">about</a></li>
+                                <li><a href="#work-process">process</a></li>
+                                <li><a href="#experience-section">experience</a></li>
+                                <li><a href="#work-section">portfolio</a></li>
+                                <li><a href="#testimonial-section">testimonial</a></li>
+                                <li><a href="#contact-section">contact</a></li>
+                            </ul>
+                        </div> <!--/.menu-->
+                        <div class="side-menu-logo">
+                            <a onclick="openMenu()" href="#"><ion-icon name="menu-outline"></ion-icon></a>
+                        </div> <!--/.side-menu-logo-->
+                    </div> <!--/.menu-and-menu-logo-->
+                </div> <!--/.nav-content-->
+            </div> <!--/.row-->
+        </nav> <!--/.main-nav-->
+
+        <!-- Side Menu Bar -->
+        <div class="side-menu-bar" id="side-bar" onclick="closeMenu()">
+            <div class="row">
+                <div class="close-btn" onclick="closeMenu()">
+                    <ion-icon name="close-circle-outline"></ion-icon>
+                </div> <!--/.close-btn-->
+                <div class="side-menu-content">
+                    <ul>
+                        <li><a onclick="closeMenu()" href="#hero">home</a></li>
+                        <li><a onclick="closeMenu()" href="#about-section">about</a></li>
+                        <li><a onclick="closeMenu()" href="#work-process">process</a></li>
+                        <li><a onclick="closeMenu()" href="#experience-section">experience</a></li>
+                        <li><a onclick="closeMenu()" href="#work-section">portfolio</a></li>
+                        <li><a onclick="closeMenu()" href="#testimonial-section">testimonial</a></li>
+                        <li><a onclick="closeMenu()" href="#contact-section">contact</a></li>
+                    </ul>
+                </div> <!--/.side-menu-content-->
+            </div> <!--/.row-->
+        </div> <!--/.side-menu-bar-->
+
+        <div class="row">
+            <div class="hero-text-box">
+                <h1>paul <span class="oth-clr">lapkin</span></h1>
+                <br>
+                <span class="fmqcng">#User Experience #Music #Creative Direction</span>
+                <div class="button-div">
+                    <a class="btn slider-btn" href="#contact-section">Contact Me</a>
+                </div> <!--/.button-div-->
+            </div> <!--/.hero-text-box-->
+            <div class="next-arrow">
+                <a href="#about-section"><ion-icon name="chevron-down-circle-outline"></ion-icon></a>
+            </div> <!--/.next-arrow-->
+        </div> <!--/.row-->
+    </header> <!--/#hero-->
+    <!--===== End Hero Section  =====-->
+
+
+    <!--======= 5. Start About Section  =======-->
+    <section id="about-section">
+        <div class="row">
+            <div class="about-container">
+                <div class="about-item">
+                    <div class="about-img">
+                        <img src="resources/img/www.jpg" alt="Paul">
+                    </div> <!--/.about-img-->
+                </div> <!--/.about-item-->
+                <div class="about-item">
+                    <h4>Hi I am paul lapkin Experience from crafter Canada</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ex ullam accusamus adipisci qui deserunt amet, dolore tenetur! Sapiente commodi totam blanditiis quisquam! Voluptatum eligendi cumque tempora magni iure ut ipsa impedit, officia, eum soluta odio minus architecto deserunt aut odit quis eveniet ipsum culpa!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, libero. Temporibus nesciunt, distinctio velit beatae atque ad? Corporis est quos quibusdam saepe, voluptatum porro vero id tempore ut incidunt quod fugit repudiandae possimus dolorum eligendi inventore labore natus nihil ad?</p>
+                    <div class="about-btn">
+                        <a class="btn" href="#contact-section">hire me!</a>
+                    </div> <!--/.about-btn-->
+                </div> <!--/.about-item-->
+            </div> <!--/.about-container-->
+        </div> <!--/.row-->
+    </section> <!--/.abt-section-->
+    <!--======== 5. End About Section  ========-->
+
+
+    <!--== 6. Start Working Process Section ==-->
+    <section id="work-process">
+        <div class="row">
+            <h2 class="lws">working process!</h2>
+            <div class="section-title">
+                <h2>my working process</h2>
+                <p>Hi I am paul lapkin Experience crafter from Canada</p>
+            </div> <!--/.section-title-->
+            <div class="wp-container">
+                <div class="wp-item">
+                    <div class="wp-item-content">
+                        <div class="wp-icon">
+                            <img src="resources/img/monitor.png" alt="Monitor">
+                        </div> <!--/.wp-icon-->
+                        <div class="wp-text">
+                            <span>design</span>
+                        </div> <!--/.wp-text-->
+                    </div> <!--/.wp-item-content-->
+                </div> <!--/.wp-item-->
+                <div class="wp-item">
+                    <div class="wp-item-content">
+                        <div class="wp-icon">
+                            <img src="resources/img/magic.png" alt="Monitor">
+                        </div> <!--/.wp-icon-->
+                        <div class="wp-text">
+                            <span>development</span>
+                        </div> <!--/.wp-text-->
+                    </div> <!--/.wp-item-content-->
+                </div> <!--/.wp-item-->
+                <div class="wp-item">
+                    <div class="wp-item-content">
+                        <div class="wp-icon">
+                            <img src="resources/img/params.png" alt="Monitor">
+                        </div> <!--/.wp-icon-->
+                        <div class="wp-text">
+                            <span>testing</span>
+                        </div> <!--/.wp-text-->
+                    </div> <!--/.wp-item-content-->
+                </div> <!--/.wp-item-->
+                <div class="wp-item">
+                    <div class="wp-item-content">
+                        <div class="wp-icon">
+                            <img src="resources/img/plane.png" alt="Monitor">
+                        </div> <!--/.wp-icon-->
+                        <div class="wp-text">
+                            <span>launch</span>
+                        </div> <!--/.wp-text-->
+                    </div> <!--/.wp-item-content-->
+                </div> <!--/.wp-item-->
+            </div> <!--/.wp-container-->
+        </div> <!--/.row-->
+    </section> <!--/.work-process-->
+    <!--=== 6. End Working Process Section ===-->
+
+
+    <!--=== 7. Start Experience Section ===-->
+    <section id="experience-section">
+        <div class="row">
+            <div class="ex-container">
+                <div class="ex-items">
+                    <div class="ex-first-part">
+                        <h3>work experience</h3>
+                        <h4>mad max design</h4>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. illum quod unde distinctio doloribus quasi, architecto minus labore repellat, laborum odit asperiores.</p>
+                    </div> <!--/.ex-first-part-->
+                    <div class="ex-second-part">
+                        <h4>crazy design</h4>
+                        <span>OCT 2014 - june 2015</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit amet. adipisicing elit. illum quod unde distinctio doloribus quasi, architecto minus labore repellat, laborum odit asperiores.</p>
+                    </div> <!--/.ex-second-part-->
+                </div> <!--/.ex-items-->
+                <div class="ex-items">
+                    <div class="ex-first-part">
+                        <h3>education</h3>
+                        <h4>maddision university</h4>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit, amet elit. illum quod unde distinctio doloribus quasi, architecto minus labore repellat, laborum odit asperiores.</p>
+                    </div> <!--/.ex-first-part-->
+                    <div class="ex-second-part">
+                        <h4>max design & art institute</h4>
+                        <span>OCT 2014 - present</span>
+                        <p>Lorem ipsum dolor sit, amet Lorem, ipsum dolor. consectetur adipisicing elit. illum quod unde distinctio doloribus quasi, architecto minus labore repellat, laborum odit asperiores. lorem ipsum!</p>
+                    </div> <!--/.ex-second-part-->
+                </div> <!--/.ex-items-->
+            </div> <!--/.ex-container-->
+        </div> <!--/.row-->
+    </section> <!--/.experience-section-->
+    <!--==== 7. End Experience Section ====-->
+
+
+    <!--====== 8. Start Works Section ======-->
+    <section id="work-section">
+        <div class="row">
+            <h2 class="lws">latest work!</h2>
+            <div class="section-title">
+                <h2>my latest work</h2>
+                <p>Hi I am paul lapkin Experience crafter from Canada</p>
+            </div> <!--/.section-title-->
+            <div class="wk-filter-list">
+                    <div data-filter="all">all</div>
+                    <span>/</span>
+                    <div data-filter=".wd">web-design</div>
+                    <span>/</span>
+                    <div data-filter=".gd">marketing</div>
+                    <span>/</span>
+                    <div data-filter=".wdv">SEO</div>
+                    <span>/</span>
+                    <div data-filter=".wp">wordpress</div>
+            </div> <!--/.wk-filter-list-->
+            <div class="wk-container">
+                <div class="wk-item mix wd wp gd">
+                    <img src="resources/img/work-1.jpg" alt="">
+                </div> <!--/.wk-item-->
+                <div class="wk-item mix wdv">
+                    <img src="resources/img/work-2.jpg" alt="">
+                </div> <!--/.wk-item-->
+                <div class="wk-item mix wp">
+                    <img src="resources/img/work-3.jpg" alt="">
+                </div> <!--/.wk-item-->
+                <div class="wk-item mix wd">
+                    <img src="resources/img/work-4.jpg" alt="">
+                </div> <!--/.wk-item-->
+                <div class="wk-item mix wdv wd wp gd">
+                    <img src="resources/img/work-5.jpg" alt="">
+                </div> <!--/.wk-item-->
+                <div class="wk-item mix wd wp">
+                    <img src="resources/img/work-6.jpg" alt="">
+                </div> <!--/.wk-item-->
+                <div class="wk-item mix wdv gd">
+                    <img src="resources/img/work-7.jpg" alt="">
+                </div> <!--/.wk-item-->
+                <div class="wk-item mix wd wdv wp gd">
+                    <img src="resources/img/work-8.jpg" alt="">
+                </div> <!--/.wk-item-->
+            </div> <!--/.wk-container-->
+        </div> <!--/.row-->
+    </section> <!--/.work-section-->
+    <!--======= 8. End Works Section =======-->
+
+
+    <!--=== 9. Start Testimonial Section ===-->
+    <section id="testimonial-section">
+        <div class="row">
+            <div class="tm-content">
+                <div class="tm-icon-div">
+                    <img src="resources/img/quote.png" alt="Quote">
+                </div> <!--/.tm-icon-div-->
+                <div class="tm-text">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, delectus  aperiam. Rerum quod, magnam explicabo facere amet sapiente molestias impedit harum odio. Eos ad harum, voluptates natus voluptas optio nulla ab! Voluptas reiciendis amet dignissimos!</p>
+                </div> <!--/.tm-text-->
+                <div class="tm-last-identity-part">
+                    <div class="tm-sgneture">
+                        <img src="resources/img/signature.png" alt="Sign">
+                    </div> <!--/.tm-signeture-->
+                    <h5>Deniel Croft</h5>
+                    <p>Creative Designer, Rian</p>
+                </div> <!--/.tm-last-identity-part-->
+            </div> <!--/.tm-content-->
+        </div> <!--/.row-->
+    </section> <!--/#testimonial-section-->
+    <!--==== 9. End Testimonial Section ====-->
+
+
+    <!--==== 10. Start Contact Section =====-->
+    <section id="contact-section">
+        <div class="row">
+            <div class="cnt-container">
+                <div class="cnt-item-1">
+                    <div class="cnt-title">
+                        <h3>leave message</h3>
+                    </div> <!--/.cnt-title-->
+                    <div class="cnt-form">
+                        <input type="text" placeholder="Name*">
+                        <input type="email" placeholder="Email*">
+                        <input type="text" placeholder="Subject*">
+                        <div class="txt-area-div">
+                            <textarea cols="30" rows="10">message*</textarea>
+                        </div> <!--/.txt-area-div-->
+                        <div class="cnt-button">
+                            <a class="btn" href="#">hire me!</a>
+                        </div> <!--/.cnt-button-->
+                    </div> <!--/.cnt-form-->
+                </div> <!--/.cnt-item-->
+                <div class="cnt-item-2">
+                    <div class="cnt-lft-sub-item">
+                        <h3>address</h3>
+                        <p>Gulshan Sales Office. SA Tower (Lavel-5), Plot#1, Road#134, Block</p>
+                        <p>SE(A), Gulshan-1, Dhaka-1212</p>
+                    </div> <!--/.cnt-lft-sub-item-->
+                    <div class="cnt-lft-sub-item">
+                        <h3>phone</h3>
+                        <p>+880 174 453 2365</p>
+                        <p>+880 164 784 3643</p>
+                    </div> <!--/.cnt-lft-sub-item-->
+                    <div class="cnt-lft-sub-item">
+                        <h3>web</h3>
+                        <p>Mail: riansabbir10@gmail.com</p>
+                        <p>Website: www.riansabbir.com</p>
+                    </div> <!--/.cnt-lft-sub-item-->
+                </div> <!--/.cnt-item-->
+            </div> <!--/.cnt-container-->
+        </div> <!--/.row-->
+    </section> <!--/.contact-section-->
+    <!--===== 10. End Contact Section ======-->
+
+
+    <!--==== 11. Start Footer Section =====-->
+    <footer id="footer-section">
+        <div class="row">
+            <div class="footer-content">
+                <div class="footer-icon">
+                    <ul>
+                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="basketball-outline"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                    </ul>
+                </div> <!--/.footer-icon-->
+                <div class="footer-text">
+                    <p>Copyright: <span>Moshiur</span> / All Rights Reserved.</p>
+                </div> <!--/.footer-text-->
+            </div> <!--/.footer-content-->
+        </div> <!--/.row-->
+    </footer> <!--/#footer-section-->
+    <!--===== 11. End Footer Section ======-->
+
+
+    <!-- 12. Start Scroll Top Button -->
+    <div class="scroll-top-btn">
+        <a href="#hero"><ion-icon name="arrow-up-outline"></ion-icon></a>
+    </div> <!--/.scroll-top-btn-->
+    <!--= 12. End Scroll Top Button =-->
+
+
+    <!-- JS Files -->
+    <!-- Jquery File -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Ionicons -->
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <!-- Particle JS Files -->
+    <script src="vendors/js/particles.min.js"></script>
+    <script src="vendors/js/app.js"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"></script>
+    <!-- Particle JS -->
+    <script src="vendors/js/particles.min.js"></script>
+    <script src="vendors/js/app.js"></script>
+    <!-- MixItUp -->
+    <script src="vendors/js/mixitup.min.js"></script>
+    <!-- Custom JS File -->
+     <script src="resources/js/custom.js"></script>
+</body>
+</html>
